@@ -15,6 +15,7 @@
         <div class="box">
             <ul class="grid container">
                 <li>
+                    <img src="img/svg/categoria.svg" alt="Analizador de texto">
                     <h1 class="font1">Contador de Caracteres</h1>
                     <h2 class="font2">Seja bem-vindo. A Feramenta é capaz de realizar a análise e contar palavras, caracteres, espaços, e letras.</h2>
                 </li>
@@ -48,7 +49,7 @@
             </ul>
         </div>
     </header>
-    
+
     <footer>
 
     </footer>

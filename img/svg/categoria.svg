@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75"
+    viewBox="0 0 383.959 383.959">
+    <g id="Grupo_6" data-name="Grupo 6" transform="translate(700.479 728.979)">
+        <rect id="Retângulo_5" data-name="Retângulo 5" width="272" height="271" rx="18"
+            transform="translate(-316.521 -537.354) rotate(135)" fill="#09f" />
+        <circle id="Elipse_5" data-name="Elipse 5" cx="112.5" cy="112.5" r="112.5"
+            transform="translate(-621 -649)" fill="#fff" />
+        <g id="Grupo_5" data-name="Grupo 5" transform="translate(15 1)">
+            <text id="T" transform="translate(-595 -485)" fill="#09f" stroke="#09f" stroke-width="1"
+                font-size="172" font-family="PMingLiU-ExtB">
+                <tspan x="0" y="0">T</tspan>
+            </text>
+            <path id="Icon_metro-tools" data-name="Icon metro-tools"
+                d="M64.059,15.23a15.547,15.547,0,0,1-3.24,16.692,14.707,14.707,0,0,1-17.934,2.453l-4.132,4.61L41.7,42.009l1.762-1.8a2.268,2.268,0,0,1,3.261,0L61.012,54.955a2.389,2.389,0,0,1,0,3.331L54.49,64.949a2.268,2.268,0,0,1-3.261,0L36.941,50.2a2.389,2.389,0,0,1,0-3.331l1.609-1.644-2.81-2.878L15.981,64.4a4.541,4.541,0,0,1-6.522,0l-1.63-1.666a4.781,4.781,0,0,1,0-6.663L30.34,36.816,15.389,21.5l-4.722,0L5.2,12.522l4.4-4.5,8.986,5.619.059,4.723L33.77,33.876l4.4-3.763a15.523,15.523,0,0,1,1.447-19.844,14.763,14.763,0,0,1,16.269-3.35L46.2,16.679l8.154,8.331,9.707-9.78Zm-50.822,43.2a2.273,2.273,0,0,0-3.261,0,2.391,2.391,0,0,0,0,3.334,2.273,2.273,0,0,0,3.261,0A2.391,2.391,0,0,0,13.237,58.426Z"
+                transform="translate(-516.203 -542.785)" fill="#09f" stroke="#09f" stroke-width="1" />
+        </g>
+    </g>
+</svg>
+  
