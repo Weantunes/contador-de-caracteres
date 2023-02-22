@@ -12,30 +12,43 @@
 <body>
 
     <header>
-        <section class="container">
-
-        </section>
+        <div class="box">
+            <ul class="grid container">
+                <li>
+                    <h1 class="font1">Contador de Caracteres</h1>
+                    <h2 class="font2">Seja bem-vindo. A Feramenta é capaz de realizar a análise e contar palavras, caracteres, espaços, e letras.</h2>
+                </li>
+                <li>
+                    <span id="caracteres">0</span>
+                    <img src="img/svg/caracteres.svg" alt="">
+                    <p class="font3">Quantidade de <br> Caracteres</p>
+                </li>
+                <li><span id="espaços">0</span><img src=img/svg/" alt="">
+                    <p></p>
+                </li>
+                <li><span></span>
+                    <img src=img/svg/" alt="">
+                    <p></p>
+                </li>
+                <li><span></span>
+                    <img src=img/svg/" alt="">
+                    <p></p>
+                </li>
+                <li><span></span>
+                    <img src=img/svg/" alt="">
+                    <p></p>
+                </li>
+                <li>
+                    <section id="content" class="container">
+                        <article>
+                            <textarea name="texto" id="conteudo" cols="70" rows="10" placeholder="Seu texto aqui!" oninput="active()"></textarea>
+                        </article>
+                    </section>
+                </li>
+            </ul>
+        </div>
     </header>
-
-    <main>
-        <section id="content" class="container">
-            <article>
-                <h1 class="font1">CONTADOR DE CARACTERES</h1>
-
-                <ul>
-                    <li>Caracteres: <span id="caracteres">0</span></li>
-                    <li>Espaços: <span id="espaços">0</span></li>
-                </ul>
-
-                <fieldset>
-                    <legend>Title</legend>
-                    <textarea name="texto" id="conteudo" cols="70" rows="10" placeholder="Seu texto aqui!" oninput="active()"></textarea>
-                </fieldset>
-
-            </article>
-        </section>
-    </main>
-
+    
     <footer>
 
     </footer>
