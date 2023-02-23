@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.834" height="18" viewBox="0 0 30.834 18">
+    <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(9.706 -6.227)">
+      <path id="Caminho_1" data-name="Caminho 1" d="M4.5,18H20.379" transform="translate(0 -2.773)" stroke="#09f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M4.5,9H20.379" stroke="#09f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Caminho_3" data-name="Caminho 3" d="M4.5,27H20.379" transform="translate(0 -5.546)" stroke="#09f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Grupo_7" data-name="Grupo 7" transform="translate(-2552.361 -1093.99)">
+      <path id="Icon_awesome-arrow-up" data-name="Icon awesome-arrow-up" d="M1.064,7.724.558,7.252a.485.485,0,0,1,0-.721L4.985,2.4a.572.572,0,0,1,.772,0l4.427,4.133a.485.485,0,0,1,0,.721l-.506.472A.575.575,0,0,1,8.9,7.714L6.284,5.153v6.113a.528.528,0,0,1-.547.51H5.008a.528.528,0,0,1-.547-.51V5.153L1.845,7.716A.571.571,0,0,1,1.064,7.724Z" transform="translate(2551.964 1091.743)" fill="#09f"/>
+      <path id="Icon_awesome-arrow-up-2" data-name="Icon awesome-arrow-up" d="M.666,5.478.161,5.006a.485.485,0,0,1,0-.721L4.588.15a.572.572,0,0,1,.772,0L9.787,4.282a.485.485,0,0,1,0,.721l-.506.472A.575.575,0,0,1,8.5,5.467L5.886,2.906V9.019a.528.528,0,0,1-.547.51H4.61a.528.528,0,0,1-.547-.51V2.906L1.448,5.469A.571.571,0,0,1,.666,5.478Z" transform="translate(2562.309 1111.99) rotate(180)" fill="#09f"/>
+    </g>
+  </svg>
+  

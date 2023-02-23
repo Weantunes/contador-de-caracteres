@@ -29,7 +29,7 @@ main .container ul{display: flex; gap: 25px; margin: 25px;}
 main .container ul{font-weight: 700;}
 #conteudo{width: 100%;}
 
-.grid li:not(:first-child) p{position: absolute; top: 25px; left: 15px; text-align: start;}
+.grid li:not(:first-child) h3{position: absolute; top: 25px; left: 15px; text-align: start;}
 .grid li:first-child img{display: block; position: relative; top: unset; left: unset;right: unset; bottom: unset;}
 .grid li:last-child{grid-column: 1/-1; }
 
