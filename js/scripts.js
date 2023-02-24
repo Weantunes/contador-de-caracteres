@@ -1,22 +1,24 @@
-function active(){
 
-    var conteudo = document.querySelector('#conteudo').value;
-    var qtd = {"caracteres": conteudo.length}
-
-    var numCaracteres = document.querySelector('#caracteres').innerText = conteudo.length;
-
-    var numPalavras = conteudo.match( /(\w+)?[a-z0-9áéíóúãõâêîôûà&](ça)?(çe)?(çi)?(ço)?(çu)?(çã)?(çõ)?(\w+)?/gi ).length;
-    var contPalavras = document.querySelector('#palavras').innerText = numPalavras;
-    
-    // var numEspaços = conteudo.match([' ']).length;
-    // var contEspaços = document.querySelector('#espaços').innerText = numEspaços;
-
-    // se for vazio mostra erro e apaga o conteúdo.
-    if (conteudo == 0) {
-        contPalavras = '0';
-        contEspaços = '0';
-        alert('deu certo');
+function active() {
+    const textarea = document.querySelector('#conteudo');
+    if (textarea) {
+        const conteudo = textarea.value;
+        const conteudo_trin = textarea.value.trim();
+        if (conteudo.length === 0) {
+            // O textarea está vazio
+            document.querySelector('#caracteres').innerText = 0;
+            document.querySelector('#palavras').innerText = 0;
+            document.querySelector('#espacos').innerText = 0;
+        } else {
+            // O textarea tem conteúdo
+            const numCaracteres = conteudo.length;
+            const numPalavras = conteudo.split(/\s+/).filter(word => word !== '').length;
+            const regex = /\s/g;
+            const match = conteudo.match(regex);
+            const numEspaços = match ? match.length : 0;
+            document.querySelector('#caracteres').innerText = numCaracteres;
+            document.querySelector('#palavras').innerText = numPalavras;
+            document.querySelector('#espacos').innerText = numEspaços;
+        }
     }
-
-    alert(conteudo);
 }
