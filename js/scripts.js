@@ -9,6 +9,8 @@ function active() {
             document.querySelector('#caracteres').innerText = 0;
             document.querySelector('#palavras').innerText = 0;
             document.querySelector('#espacos').innerText = 0;
+            document.querySelector('#linhas').innerText = 0;
+
         } else {
             // O textarea tem conteúdo
             const numCaracteres = conteudo.length;
@@ -16,9 +18,11 @@ function active() {
             const regex = /\s/g;
             const match = conteudo.match(regex);
             const numEspaços = match ? match.length : 0;
+            const numLinhas = conteudo.split('\n').length;
             document.querySelector('#caracteres').innerText = numCaracteres;
             document.querySelector('#palavras').innerText = numPalavras;
             document.querySelector('#espacos').innerText = numEspaços;
+            document.querySelector('#linhas').innerText = numLinhas;
         }
     }
 }
