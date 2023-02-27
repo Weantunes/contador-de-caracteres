@@ -19,7 +19,7 @@ ul{list-style: none;}
 .grid li span{position: absolute;bottom: 15px;left: 15px;font-size: 25px;}
 .grid li img{position: absolute; right: 15px;top: 10px;}
 
-header{width: 100%;height: 95vh;background-image: url();position: relative;background-image: linear-gradient(rgb(15 15 89 / 99%),rgba(15, 15, 89, 0.632), rgb(0 0 255 / 31%));}
+header{width: 100%;height: 100%;background-image: url();position: relative;background-image: linear-gradient(rgb(0 153 255),rgb(0 0 0));}
 header .container{}
 
 main{}
@@ -33,7 +33,7 @@ main .container ul{font-weight: 700;}
 .grid li:first-child img{display: block; position: relative; top: unset; left: unset;right: unset; bottom: unset;}
 .grid li:last-child{grid-column: 1/-1; }
 
-footer{background-color: #eef0f7;text-align: center;box-shadow: 1px 20px 20px 20px #00000038;position: relative;top: 30vh;padding: 30px;z-index: -1;font-family: arial;}
+footer{background-color: #eef0f7;text-align: center;box-shadow: 1px 20px 20px 20px #00000038;position: relative;padding: 30px;z-index: -1;font-family: arial;}
 
 a, a:visited {text-decoration: double;font-weight: 700; color: #0099FF;}
 
