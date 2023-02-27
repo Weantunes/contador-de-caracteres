@@ -19,14 +19,8 @@ ul{list-style: none;}
 .grid li span{position: absolute;bottom: 15px;left: 15px;font-size: 25px;}
 .grid li img{position: absolute; right: 15px;top: 10px;}
 
-header{width: 100%;height: 100%;background-image: url();position: relative;background-image: linear-gradient(rgb(0 153 255),rgb(0 0 0));}
-header .container{}
-
-main{}
+main{width: 100%;height: 100%;background-image: url();position: relative;background-image: linear-gradient(rgb(0 153 255),rgb(0 0 0));}
 main .container{}
-main .container article{top: -70px;z-index: 3;position: relative;}
-main .container ul{display: flex; gap: 25px; margin: 25px;}
-main .container ul{font-weight: 700;}
 #conteudo{width: 100%;}
 
 .grid li:not(:first-child) h3{position: absolute; top: 25px; left: 15px; text-align: start;}
